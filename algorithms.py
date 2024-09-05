@@ -1,7 +1,7 @@
 import heapq as q
 import math
 
-DIRECTIONS = [(0, 1), (0,-1), (1, 0), (-1, 0), (-1, 1), (-1, -1), (1, -1), (1, 1)]
+DIRECTIONS = [(0, 1), (0,-1), (1, 0), (-1, 0), (-1, 1), (-1, -1), (1, -1), (1, 1)]  # global
 
 class Algorithm:
     def __init__(self, grid, type: str, start, goal):
